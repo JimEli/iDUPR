@@ -1,0 +1,124 @@
+html {
+  background-color: #004ce4;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+}
+
+a {
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration-line: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  font-weight: 700;
+}
+
+img {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  height: 75px;
+  -webkit-user-drag: none;
+}
+
+.card {
+  border-radius: 30px;
+  background: #004ce4;
+  padding: 40px 50px 50px 50px;
+  width: 700px;
+  height: 400px;
+  box-shadow: 0px 0px 200px #0000008a;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#contacts {
+  position: absolute;
+  bottom: 25px;
+}
+
+@media only screen and (max-device-width: 800px) {
+  .card {
+    width: 600px;
+    height: 300px;
+  }
+
+  img {
+    top: 40px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  #content {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-device-width: 700px) {
+  .card {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-device-width: 500px) {
+  .card {
+    width: 300px;
+    height: 350px;
+  }
+
+  img {
+    top: 40px;
+  }
+}
+
+@media only screen and (max-device-width: 400px) {
+  .card {
+    width: 200px;
+    height: 250px;
+  }
+
+  img {
+    top: 40px;
+    height: 45px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  #content {
+    font-size: 16px;
+  }
+}
+
